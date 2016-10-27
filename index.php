@@ -26,17 +26,18 @@ function listeProfs() {
     }
     file_put_contents('professeurs.xml', '');
 
-    $req = $bdd->query('SELECT name FROM teacher WHERE dept ="INFO" ');
+    $req = $bdd->query('SELECT shortname FROM teacher WHERE dept ="INFO" ');
     $xml = '<Teachers_List>'.PHP_EOL;
     while($ligne = $req->fetch()){
-        $xml.="<Teacher>".PHP_EOL."    <Name>".$ligne['name']."</Name>".PHP_EOL."</Teacher>".PHP_EOL;
+        $xml.="<Teacher>".PHP_EOL."    <Name>".$ligne['shortname']."</Name>".PHP_EOL."</Teacher>".PHP_EOL;
     }
     $xml.="</Teachers_List>".PHP_EOL;
     file_put_contents("professeurs.xml",$xml);
+    echo "Generation du fichiers professeurs.xml réussi ...".PHP_EOL;
 
 }// listeProfs
 
-function listeMatieres() {
+function listeMatieres($semestre) {
     global $bdd;
     $filename = 'matieres.xml';
     if(!file_exists($filename)) {
@@ -45,13 +46,14 @@ function listeMatieres() {
     }
     file_put_contents('matieres.xml', '');
 
-    $req = $bdd->query('SELECT name FROM subject JOIN course ON subject.id=course.subject_id WHERE course.dept="INFO" AND course.semester="S5" ');
+    $req = $bdd->query('SELECT shortname FROM subject JOIN course ON subject.id=course.subject_id WHERE course.dept="INFO" AND course.semester="'.$semestre.'" ');
     $xml = '<Subjects_List>'.PHP_EOL;
     while($ligne = $req->fetch()){
-        $xml.="<Subject>".PHP_EOL."    <Name>".$ligne['name']."</Name>".PHP_EOL."</Subject>".PHP_EOL;
+        $xml.="<Subject>".PHP_EOL."    <Name>".$ligne['shortname']."</Name>".PHP_EOL."</Subject>".PHP_EOL;
     }
     $xml.="</Subjects_List>".PHP_EOL;
     file_put_contents("matieres.xml",$xml);
+    echo "Generation du fichiers matieres.xml réussi ...".PHP_EOL;
 
 }// listeMatieres
 
@@ -76,12 +78,12 @@ function listeDispoProfs() {
        $nom = $ligne['name'];
         if($tmp != $nom) {
             if($nbIndispo!=0) {
-
                 $xml.="    <Teacher>".$tmp."</Teacher>".PHP_EOL."    <Number_of_Not_Available_Times>".$nbIndispo."</Number_of_Not_Available_Times>".PHP_EOL;
-                for ($i=0;$i<count($tabDispo);$i++) {
-                    if(array_key_exists($tabJour[$i],$tabDispo)) {
-                        for($j=0;$j<count(array_keys($tabDispo[$tabJour[$i]]));$j++) {
-                            $xml.="    <Not_Available_Time>".PHP_EOL."        <Day>".$tabJour[$i]."</Day>".PHP_EOL."        <Hour>".$tabDispo[$tabJour[$i]][$j]."</Hour>".PHP_EOL."    </Not_Available_Time>".PHP_EOL;
+                $test = traitementHoraire($tabDispo,$tabJour);
+                for ($i=0;$i<count($test);$i++) {
+                    if(array_key_exists($tabJour[$i],$test)) {
+                        for($j=0;$j<count(array_keys($test[$tabJour[$i]]));$j++) {
+                            $xml.="    <Not_Available_Time>".PHP_EOL."        <Day>".$tabJour[$i]."</Day>".PHP_EOL."        <Hour>".$test[$tabJour[$i]][$j]."</Hour>".PHP_EOL."    </Not_Available_Time>".PHP_EOL;
                         }
                     }
                 }
@@ -97,7 +99,6 @@ function listeDispoProfs() {
                     $tabDispo[$ligne['jour']][]= $i;
                 }
             }
-            echo PHP_EOL." ".$tmp.PHP_EOL;
         } // if($tmp != $nom)
 
         else {
@@ -121,14 +122,42 @@ function listeDispoProfs() {
 
     $xml.=" <Active>true</Active>".PHP_EOL."<Comments></Comments>".PHP_EOL."</ConstraintTeacherNotAvailableTimes>";
      file_put_contents("dispo.xml",$xml);
+    echo "Generation du fichiers dispo.xml réussi ...".PHP_EOL;
 
 } // listeDispoProfs
+
+function traitementHoraire($tabH, $tabJ) {
+    $tabDispo = array();
+    for ($i=0;$i<count($tabH);$i++) {
+        if(array_key_exists($tabJ[$i],$tabH)) {
+           if(in_array(8,$tabH[$tabJ[$i]]) && in_array(9,$tabH[$tabJ[$i]]) ) {
+               $tabDispo[$tabJ[$i]][] = "08:15-09:45";
+           }
+            if(in_array(10,$tabH[$tabJ[$i]]) && in_array(11,$tabH[$tabJ[$i]]) ) {
+                $tabDispo[$tabJ[$i]][] = "10:00-11:30";
+            }
+            if(in_array(12,$tabH[$tabJ[$i]])) {
+                $tabDispo[$tabJ[$i]][] = "11:30-12:45";
+            }
+            if(in_array(13,$tabH[$tabJ[$i]]) && in_array(14,$tabH[$tabJ[$i]]) ) {
+                $tabDispo[$tabJ[$i]][] = "12:45-14:15";
+            }
+            if(in_array(14,$tabH[$tabJ[$i]]) && in_array(15,$tabH[$tabJ[$i]]) ) {
+                $tabDispo[$tabJ[$i]][] = "14:15-15:45";
+            }
+            if(in_array(16,$tabH[$tabJ[$i]]) && in_array(17,$tabH[$tabJ[$i]]) ) {
+                $tabDispo[$tabJ[$i]][] = "16:00-17:30";
+            }
+        }
+    }
+    return $tabDispo;
+} // traitementHoraire
 
 
 
 
 listeProfs();
-listeMatieres();
+listeMatieres("S1");
 listeDispoProfs();
 /*
  $reponse = $bdd->query('SELECT * FROM subject LIMIT 0,5');

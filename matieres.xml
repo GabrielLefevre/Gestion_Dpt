@@ -1,59 +1,68 @@
 <Subjects_List>
 <Subject>
-    <Name>Fondements de la programmation</Name>
+    <Name>Soutien</Name>
 </Subject>
 <Subject>
-    <Name>Fondements Systemes d'exploitation</Name>
-</Subject>
-<Subject>
-    <Name>Fondements reseaux</Name>
-</Subject>
-<Subject>
-    <Name>Telecoms</Name>
-</Subject>
-<Subject>
-    <Name>Techniques d'Expressions</Name>
-</Subject>
-<Subject>
-    <Name>Politique Securite</Name>
-</Subject>
-<Subject>
-    <Name>Cryptographie</Name>
-</Subject>
-<Subject>
-    <Name>Outils Mathematiques</Name>
-</Subject>
-<Subject>
-    <Name>Politique Reseau</Name>
-</Subject>
-<Subject>
-    <Name>Securite Reseaux</Name>
-</Subject>
-<Subject>
-    <Name>Securite Web</Name>
-</Subject>
-<Subject>
-    <Name>Securite des programmes</Name>
-</Subject>
-<Subject>
-    <Name>Securite des bases de donnees</Name>
-</Subject>
-<Subject>
-    <Name>Securite materiels</Name>
-</Subject>
-<Subject>
-    <Name>Anglais</Name>
+    <Name>Tutorat</Name>
 </Subject>
 <Subject>
     <Name>Recrutement</Name>
 </Subject>
 <Subject>
-    <Name>Soutien</Name>
+    <Name>PPP</Name>
+</Subject>
+<Subject>
+    <Name>Projet</Name>
+</Subject>
+<Subject>
+    <Name>SE-1</Name>
+</Subject>
+<Subject>
+    <Name>AP-1</Name>
+</Subject>
+<Subject>
+    <Name>SD-1</Name>
+</Subject>
+<Subject>
+    <Name>BD-1</Name>
+</Subject>
+<Subject>
+    <Name>CDIN</Name>
+</Subject>
+<Subject>
+    <Name>PT-1</Name>
+</Subject>
+<Subject>
+    <Name>MD</Name>
+</Subject>
+<Subject>
+    <Name>Alg</Name>
+</Subject>
+<Subject>
+    <Name>EE</Name>
+</Subject>
+<Subject>
+    <Name>Orga</Name>
+</Subject>
+<Subject>
+    <Name>FCOM</Name>
+</Subject>
+<Subject>
+    <Name>AI</Name>
+</Subject>
+<Subject>
+    <Name>PPP-1</Name>
+</Subject>
+<Subject>
+    <Name>CDINc</Name>
+</Subject>
+<Subject>
+    <Name>Recherche Documentaire</Name>
+</Subject>
+<Subject>
+    <Name>Conférences </Name>
 </Subject>
 <Subject>
     <Name>Forum</Name>
-</Subject>
-<Subject>
-    <Name>Fondements des bases de données</Name>
 </Subject>
 </Subjects_List>
