@@ -47,6 +47,7 @@ class Traitement {
     }// listeProfs
 
 
+
     function listeMatieres() {;
         $filename = 'matieres.xml';
         if(!file_exists($filename)) {
@@ -66,6 +67,7 @@ class Traitement {
         file_put_contents("matieres.xml",$xml);
         echo "Generation du fichiers matieres.xml réussi ...".PHP_EOL;
     }// listeMatieres
+
 
 
     function traitementHoraire($tabH, $tabJ) {
@@ -94,6 +96,8 @@ class Traitement {
         }
         return $tabDispo;
     } // traitementHoraire
+
+
 
     function listeDispoProfs() {
         $filename = 'dispo.xml';
@@ -160,6 +164,8 @@ class Traitement {
         echo "Generation du fichiers dispo.xml réussi ...".PHP_EOL;
     } // listeDispoProfs
 
+
+
     function dataActivity() {
         $tabGroup = array();
         $tabNbHoursSubject = array();
@@ -200,20 +206,18 @@ class Traitement {
         $stmt=$this->bdd->prepare($sql);
         $stmt ->bindParam(1,$sem);
         $stmt->execute();
-        $i=0;
         while($ligne = $stmt->fetch(PDO :: FETCH_ASSOC)){
-            if(in_array($ligne['shortname'],$tabNbHoursSubject)) {
-                $tabMatProf[] =  $ligne['name'];
-                $tabMatProf[$ligne['name']] =  $ligne['shortname'];
-                unset($tabMatProf[$i]);
-                $i++;
+            if(in_array( $ligne['shortname'],array_keys($tabNbHoursSubject))) {
+                $tabMatProf[$ligne['name']] =  $ligne['shortname']; // a modifier !!
             }
+
         }
-        //print_r($tabNbHoursSubject);
+       // print_r($tabMatProf);
         $this->listeActivity($tabNbHoursSubject,$tabMatProf);
     }
 
     function listeActivity($tabHS,$tabMP) {
+        $tabCours=["CM","TD","TP"];
         if($this->semestre=="S2") {
             $sem="S1";
         }
@@ -221,13 +225,31 @@ class Traitement {
             $sem=$this->semestre;
         }
         for ($i=0;$i<count($tabHS);$i++) {
-            for($j=0;$j<3;$j++) {
-               // if($tabHS[$i][$j]!==0) {
-                   // echo $tabHS[$i].PHP_EOL;
-                //}
+            echo "<br />".key($tabHS)." "."<br/>";
+            $tabProf = array();
+            foreach ($tabMP as $key => $values) {
+                if(key($tabHS) == $values) {
+                    $tabProf[] = $key;
+                }
             }
+            print_r($tabProf);
+            //print_r($tabProf);
+
+             for ($j=0;$j<3;$j++) {
+                 if($tabHS[key($tabHS)][$tabCours[$j]] != 0.00) {
+                     echo $tabCours[$j]." : ".$tabHS[key($tabHS)][$tabCours[$j]]." ";
+                 }
+
+             }
+             next($tabHS);
         }
     }
+
+    /*
+     * Array (
+    [Prensier] => AI
+    [Guerville] => AI
+     */
 
     /*
      * [PPP] => Array

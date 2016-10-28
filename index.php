@@ -25,7 +25,7 @@ function __autoload($classname) {
 
 $exec = new Traitement("S1");
 
-$exec->generationFichiersXML();
+//$exec->generationFichiersXML();
 $exec->dataActivity();
 ?>
 </body>
