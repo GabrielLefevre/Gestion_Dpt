@@ -1,0 +1,1042 @@
+<Activities_List>
+<Activity>
+    <Teacher>-</Teacher>
+    <Subject>Projet</Subject>
+    <Activity_Tag>TD</Activity_Tag>
+    <Students>groupe 1-A</Students>
+    <Duration>1</Duration>
+    <Total_Duration>6.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>-</Teacher>
+    <Subject>Projet</Subject>
+    <Activity_Tag>TD</Activity_Tag>
+    <Students>groupe 1-B</Students>
+    <Duration>1</Duration>
+    <Total_Duration>6.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>-</Teacher>
+    <Subject>Projet</Subject>
+    <Activity_Tag>TD</Activity_Tag>
+    <Students>groupe 1-C</Students>
+    <Duration>1</Duration>
+    <Total_Duration>6.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>JM. Lagniez</Teacher>
+    <Subject>SE-2</Subject>
+    <Activity_Tag>CM</Activity_Tag>
+    <Students>INFO 1</Students>
+    <Duration>1</Duration>
+    <Total_Duration>6.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>S. Tabary</Teacher>
+    <Subject>SE-2</Subject>
+    <Activity_Tag>TD</Activity_Tag>
+    <Students>groupe 1-A</Students>
+    <Duration>1</Duration>
+    <Total_Duration>12.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>JM. Lagniez</Teacher>
+    <Subject>SE-2</Subject>
+    <Activity_Tag>TD</Activity_Tag>
+    <Students>groupe 1-B</Students>
+    <Duration>1</Duration>
+    <Total_Duration>12.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>F. Hemery</Teacher>
+    <Subject>SE-2</Subject>
+    <Activity_Tag>TD</Activity_Tag>
+    <Students>groupe 1-C</Students>
+    <Duration>1</Duration>
+    <Total_Duration>12.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>S. Coste</Teacher>
+    <Subject>SE-2</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-A-1</Students>
+    <Duration>1</Duration>
+    <Total_Duration>12.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>S. Coste</Teacher>
+    <Subject>SE-2</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-B-1</Students>
+    <Duration>1</Duration>
+    <Total_Duration>12.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>F. Hemery</Teacher>
+    <Subject>SE-2</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-C-1</Students>
+    <Duration>1</Duration>
+    <Total_Duration>12.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>S. Coste</Teacher>
+    <Subject>SE-2</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-A-2</Students>
+    <Duration>1</Duration>
+    <Total_Duration>12.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>S. Coste</Teacher>
+    <Subject>SE-2</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-B-2</Students>
+    <Duration>1</Duration>
+    <Total_Duration>12.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>S. Coste</Teacher>
+    <Subject>SE-2</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-C-2</Students>
+    <Duration>1</Duration>
+    <Total_Duration>12.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>IJ. Varzinczak</Teacher>
+    <Subject>RX-1</Subject>
+    <Activity_Tag>CM</Activity_Tag>
+    <Students>INFO 1</Students>
+    <Duration>1</Duration>
+    <Total_Duration>6.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>F. Essghaier</Teacher>
+    <Subject>RX-1</Subject>
+    <Activity_Tag>TD</Activity_Tag>
+    <Students>groupe 1-A</Students>
+    <Duration>1</Duration>
+    <Total_Duration>12.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>S. Coste</Teacher>
+    <Subject>RX-1</Subject>
+    <Activity_Tag>TD</Activity_Tag>
+    <Students>groupe 1-B</Students>
+    <Duration>1</Duration>
+    <Total_Duration>12.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>S. Coste</Teacher>
+    <Subject>RX-1</Subject>
+    <Activity_Tag>TD</Activity_Tag>
+    <Students>groupe 1-C</Students>
+    <Duration>1</Duration>
+    <Total_Duration>12.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>S. Coste</Teacher>
+    <Subject>RX-1</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-A-1</Students>
+    <Duration>1</Duration>
+    <Total_Duration>12.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>O. Roussel</Teacher>
+    <Subject>RX-1</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-B-1</Students>
+    <Duration>1</Duration>
+    <Total_Duration>12.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>F. Essghaier</Teacher>
+    <Subject>RX-1</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-C-1</Students>
+    <Duration>1</Duration>
+    <Total_Duration>12.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>S. Coste</Teacher>
+    <Subject>RX-1</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-A-2</Students>
+    <Duration>1</Duration>
+    <Total_Duration>12.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>S. Coste</Teacher>
+    <Subject>RX-1</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-B-2</Students>
+    <Duration>1</Duration>
+    <Total_Duration>12.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>O. Roussel</Teacher>
+    <Subject>RX-1</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-C-2</Students>
+    <Duration>1</Duration>
+    <Total_Duration>12.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>Y. Salhi</Teacher>
+    <Subject>POO-1</Subject>
+    <Activity_Tag>CM</Activity_Tag>
+    <Students>INFO 1</Students>
+    <Duration>1</Duration>
+    <Total_Duration>12.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>Y. Salhi</Teacher>
+    <Subject>POO-1</Subject>
+    <Activity_Tag>TD</Activity_Tag>
+    <Students>groupe 1-A</Students>
+    <Duration>1</Duration>
+    <Total_Duration>18.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>T. Hsu</Teacher>
+    <Subject>POO-1</Subject>
+    <Activity_Tag>TD</Activity_Tag>
+    <Students>groupe 1-B</Students>
+    <Duration>1</Duration>
+    <Total_Duration>18.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>T. Hsu</Teacher>
+    <Subject>POO-1</Subject>
+    <Activity_Tag>TD</Activity_Tag>
+    <Students>groupe 1-C</Students>
+    <Duration>1</Duration>
+    <Total_Duration>18.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>JF. Condotta</Teacher>
+    <Subject>POO-1</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-A-1</Students>
+    <Duration>1</Duration>
+    <Total_Duration>30.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>T. Delacroix</Teacher>
+    <Subject>POO-1</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-B-1</Students>
+    <Duration>1</Duration>
+    <Total_Duration>30.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>T. Hsu</Teacher>
+    <Subject>POO-1</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-C-1</Students>
+    <Duration>1</Duration>
+    <Total_Duration>30.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>Y. Salhi</Teacher>
+    <Subject>POO-1</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-A-2</Students>
+    <Duration>1</Duration>
+    <Total_Duration>30.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>IJ. Varzinczak</Teacher>
+    <Subject>POO-1</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-B-2</Students>
+    <Duration>1</Duration>
+    <Total_Duration>30.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>Y. Salhi</Teacher>
+    <Subject>POO-1</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-C-2</Students>
+    <Duration>1</Duration>
+    <Total_Duration>30.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>IJ. Varzinczak</Teacher>
+    <Subject>COO-1</Subject>
+    <Activity_Tag>CM</Activity_Tag>
+    <Students>INFO 1</Students>
+    <Duration>1</Duration>
+    <Total_Duration>12.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>IJ. Varzinczak</Teacher>
+    <Subject>COO-1</Subject>
+    <Activity_Tag>TD</Activity_Tag>
+    <Students>groupe 1-A</Students>
+    <Duration>1</Duration>
+    <Total_Duration>13.50</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>JF. Condotta</Teacher>
+    <Subject>COO-1</Subject>
+    <Activity_Tag>TD</Activity_Tag>
+    <Students>groupe 1-B</Students>
+    <Duration>1</Duration>
+    <Total_Duration>13.50</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>JF. Condotta</Teacher>
+    <Subject>COO-1</Subject>
+    <Activity_Tag>TD</Activity_Tag>
+    <Students>groupe 1-C</Students>
+    <Duration>1</Duration>
+    <Total_Duration>13.50</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>IJ. Varzinczak</Teacher>
+    <Subject>COO-1</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-A-1</Students>
+    <Duration>1</Duration>
+    <Total_Duration>18.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>JF. Condotta</Teacher>
+    <Subject>COO-1</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-B-1</Students>
+    <Duration>1</Duration>
+    <Total_Duration>18.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>IJ. Varzinczak</Teacher>
+    <Subject>COO-1</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-C-1</Students>
+    <Duration>1</Duration>
+    <Total_Duration>18.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>IJ. Varzinczak</Teacher>
+    <Subject>COO-1</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-A-2</Students>
+    <Duration>1</Duration>
+    <Total_Duration>18.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>A. Choukhi</Teacher>
+    <Subject>COO-1</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-B-2</Students>
+    <Duration>1</Duration>
+    <Total_Duration>18.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>JF. Condotta</Teacher>
+    <Subject>COO-1</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-C-2</Students>
+    <Duration>1</Duration>
+    <Total_Duration>18.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>F. Koriche</Teacher>
+    <Subject>IHM-1</Subject>
+    <Activity_Tag>CM</Activity_Tag>
+    <Students>INFO 1</Students>
+    <Duration>1</Duration>
+    <Total_Duration>9.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>F. Hemery</Teacher>
+    <Subject>IHM-1</Subject>
+    <Activity_Tag>TD</Activity_Tag>
+    <Students>groupe 1-A</Students>
+    <Duration>1</Duration>
+    <Total_Duration>12.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>O. Roussel</Teacher>
+    <Subject>IHM-1</Subject>
+    <Activity_Tag>TD</Activity_Tag>
+    <Students>groupe 1-B</Students>
+    <Duration>1</Duration>
+    <Total_Duration>12.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>F. Hemery</Teacher>
+    <Subject>IHM-1</Subject>
+    <Activity_Tag>TD</Activity_Tag>
+    <Students>groupe 1-C</Students>
+    <Duration>1</Duration>
+    <Total_Duration>12.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>O. Roussel</Teacher>
+    <Subject>IHM-1</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-A-1</Students>
+    <Duration>1</Duration>
+    <Total_Duration>24.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>O. Roussel</Teacher>
+    <Subject>IHM-1</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-B-1</Students>
+    <Duration>1</Duration>
+    <Total_Duration>24.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>V. Montmirail</Teacher>
+    <Subject>IHM-1</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-C-1</Students>
+    <Duration>1</Duration>
+    <Total_Duration>24.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>F. Hemery</Teacher>
+    <Subject>IHM-1</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-A-2</Students>
+    <Duration>1</Duration>
+    <Total_Duration>24.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>F. Koriche</Teacher>
+    <Subject>IHM-1</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-B-2</Students>
+    <Duration>1</Duration>
+    <Total_Duration>24.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>F. Koriche</Teacher>
+    <Subject>IHM-1</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-C-2</Students>
+    <Duration>1</Duration>
+    <Total_Duration>24.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>F. Hemery</Teacher>
+    <Subject>BD-2</Subject>
+    <Activity_Tag>CM</Activity_Tag>
+    <Students>INFO 1</Students>
+    <Duration>1</Duration>
+    <Total_Duration>10.50</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>IJ. Varzinczak</Teacher>
+    <Subject>BD-2</Subject>
+    <Activity_Tag>TD</Activity_Tag>
+    <Students>groupe 1-A</Students>
+    <Duration>1</Duration>
+    <Total_Duration>15.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>F. Hemery</Teacher>
+    <Subject>BD-2</Subject>
+    <Activity_Tag>TD</Activity_Tag>
+    <Students>groupe 1-B</Students>
+    <Duration>1</Duration>
+    <Total_Duration>15.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>F. Boussemart</Teacher>
+    <Subject>BD-2</Subject>
+    <Activity_Tag>TD</Activity_Tag>
+    <Students>groupe 1-C</Students>
+    <Duration>1</Duration>
+    <Total_Duration>15.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>F. Boussemart</Teacher>
+    <Subject>BD-2</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-A-1</Students>
+    <Duration>1</Duration>
+    <Total_Duration>18.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>F. Hemery</Teacher>
+    <Subject>BD-2</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-B-1</Students>
+    <Duration>1</Duration>
+    <Total_Duration>18.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>IJ. Varzinczak</Teacher>
+    <Subject>BD-2</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-C-1</Students>
+    <Duration>1</Duration>
+    <Total_Duration>18.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>IJ. Varzinczak</Teacher>
+    <Subject>BD-2</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-A-2</Students>
+    <Duration>1</Duration>
+    <Total_Duration>18.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>IJ. Varzinczak</Teacher>
+    <Subject>BD-2</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-B-2</Students>
+    <Duration>1</Duration>
+    <Total_Duration>18.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>F. Boussemart</Teacher>
+    <Subject>BD-2</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-C-2</Students>
+    <Duration>1</Duration>
+    <Total_Duration>18.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>M. Saralegi</Teacher>
+    <Subject>GL</Subject>
+    <Activity_Tag>CM</Activity_Tag>
+    <Students>INFO 1</Students>
+    <Duration>1</Duration>
+    <Total_Duration>11.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>M. Saralegi</Teacher>
+    <Subject>GL</Subject>
+    <Activity_Tag>TD</Activity_Tag>
+    <Students>groupe 1-A</Students>
+    <Duration>1</Duration>
+    <Total_Duration>16.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>Y. Fregier</Teacher>
+    <Subject>GL</Subject>
+    <Activity_Tag>TD</Activity_Tag>
+    <Students>groupe 1-B</Students>
+    <Duration>1</Duration>
+    <Total_Duration>16.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>M. Saralegi</Teacher>
+    <Subject>GL</Subject>
+    <Activity_Tag>TD</Activity_Tag>
+    <Students>groupe 1-C</Students>
+    <Duration>1</Duration>
+    <Total_Duration>16.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>M. Samy Modeliar</Teacher>
+    <Subject>GL</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-A-1</Students>
+    <Duration>1</Duration>
+    <Total_Duration>18.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>M. Saralegi</Teacher>
+    <Subject>GL</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-B-1</Students>
+    <Duration>1</Duration>
+    <Total_Duration>18.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>Y. Fregier</Teacher>
+    <Subject>GL</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-C-1</Students>
+    <Duration>1</Duration>
+    <Total_Duration>18.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>Y. Fregier</Teacher>
+    <Subject>GL</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-A-2</Students>
+    <Duration>1</Duration>
+    <Total_Duration>18.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>Y. Fregier</Teacher>
+    <Subject>GL</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-B-2</Students>
+    <Duration>1</Duration>
+    <Total_Duration>18.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>M. Saralegi</Teacher>
+    <Subject>GL</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-C-2</Students>
+    <Duration>1</Duration>
+    <Total_Duration>18.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>M. El Rezzi</Teacher>
+    <Subject>AN</Subject>
+    <Activity_Tag>CM</Activity_Tag>
+    <Students>INFO 1</Students>
+    <Duration>1</Duration>
+    <Total_Duration>6.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>M. El Rezzi</Teacher>
+    <Subject>AN</Subject>
+    <Activity_Tag>TD</Activity_Tag>
+    <Students>groupe 1-A</Students>
+    <Duration>1</Duration>
+    <Total_Duration>12.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>M. El Rezzi</Teacher>
+    <Subject>AN</Subject>
+    <Activity_Tag>TD</Activity_Tag>
+    <Students>groupe 1-B</Students>
+    <Duration>1</Duration>
+    <Total_Duration>12.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>M. El Rezzi</Teacher>
+    <Subject>AN</Subject>
+    <Activity_Tag>TD</Activity_Tag>
+    <Students>groupe 1-C</Students>
+    <Duration>1</Duration>
+    <Total_Duration>12.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>M. El Rezzi</Teacher>
+    <Subject>AN</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-A-1</Students>
+    <Duration>1</Duration>
+    <Total_Duration>12.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>M. El Rezzi</Teacher>
+    <Subject>AN</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-B-1</Students>
+    <Duration>1</Duration>
+    <Total_Duration>12.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>M. El Rezzi</Teacher>
+    <Subject>AN</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-C-1</Students>
+    <Duration>1</Duration>
+    <Total_Duration>12.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>M. El Rezzi</Teacher>
+    <Subject>AN</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-A-2</Students>
+    <Duration>1</Duration>
+    <Total_Duration>12.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>M. El Rezzi</Teacher>
+    <Subject>AN</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-B-2</Students>
+    <Duration>1</Duration>
+    <Total_Duration>12.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>M. El Rezzi</Teacher>
+    <Subject>AN</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-C-2</Students>
+    <Duration>1</Duration>
+    <Total_Duration>12.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>B. Legros</Teacher>
+    <Subject>ECFJS</Subject>
+    <Activity_Tag>CM</Activity_Tag>
+    <Students>INFO 1</Students>
+    <Duration>1</Duration>
+    <Total_Duration>12.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>B. Legros</Teacher>
+    <Subject>ECFJS</Subject>
+    <Activity_Tag>TD</Activity_Tag>
+    <Students>groupe 1-A</Students>
+    <Duration>1</Duration>
+    <Total_Duration>18.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>B. Legros</Teacher>
+    <Subject>ECFJS</Subject>
+    <Activity_Tag>TD</Activity_Tag>
+    <Students>groupe 1-B</Students>
+    <Duration>1</Duration>
+    <Total_Duration>18.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>B. Legros</Teacher>
+    <Subject>ECFJS</Subject>
+    <Activity_Tag>TD</Activity_Tag>
+    <Students>groupe 1-C</Students>
+    <Duration>1</Duration>
+    <Total_Duration>18.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>B. Legros</Teacher>
+    <Subject>ECFJS</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-A-1</Students>
+    <Duration>1</Duration>
+    <Total_Duration>15.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>B. Legros</Teacher>
+    <Subject>ECFJS</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-B-1</Students>
+    <Duration>1</Duration>
+    <Total_Duration>15.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>B. Legros</Teacher>
+    <Subject>ECFJS</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-C-1</Students>
+    <Duration>1</Duration>
+    <Total_Duration>15.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>B. Legros</Teacher>
+    <Subject>ECFJS</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-A-2</Students>
+    <Duration>1</Duration>
+    <Total_Duration>15.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>B. Legros</Teacher>
+    <Subject>ECFJS</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-B-2</Students>
+    <Duration>1</Duration>
+    <Total_Duration>15.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>B. Legros</Teacher>
+    <Subject>ECFJS</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-C-2</Students>
+    <Duration>1</Duration>
+    <Total_Duration>15.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>B. Legros</Teacher>
+    <Subject>GPI</Subject>
+    <Activity_Tag>CM</Activity_Tag>
+    <Students>INFO 1</Students>
+    <Duration>1</Duration>
+    <Total_Duration>8.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>B. Legros</Teacher>
+    <Subject>GPI</Subject>
+    <Activity_Tag>TD</Activity_Tag>
+    <Students>groupe 1-A</Students>
+    <Duration>1</Duration>
+    <Total_Duration>12.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>B. Legros</Teacher>
+    <Subject>GPI</Subject>
+    <Activity_Tag>TD</Activity_Tag>
+    <Students>groupe 1-B</Students>
+    <Duration>1</Duration>
+    <Total_Duration>12.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>B. Legros</Teacher>
+    <Subject>GPI</Subject>
+    <Activity_Tag>TD</Activity_Tag>
+    <Students>groupe 1-C</Students>
+    <Duration>1</Duration>
+    <Total_Duration>12.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>B. Legros</Teacher>
+    <Subject>GPI</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-A-1</Students>
+    <Duration>1</Duration>
+    <Total_Duration>10.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>B. Legros</Teacher>
+    <Subject>GPI</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-B-1</Students>
+    <Duration>1</Duration>
+    <Total_Duration>10.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>B. Legros</Teacher>
+    <Subject>GPI</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-C-1</Students>
+    <Duration>1</Duration>
+    <Total_Duration>10.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>B. Legros</Teacher>
+    <Subject>GPI</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-A-2</Students>
+    <Duration>1</Duration>
+    <Total_Duration>10.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>B. Legros</Teacher>
+    <Subject>GPI</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-B-2</Students>
+    <Duration>1</Duration>
+    <Total_Duration>10.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>B. Legros</Teacher>
+    <Subject>GPI</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-C-2</Students>
+    <Duration>1</Duration>
+    <Total_Duration>10.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>L. Membre</Teacher>
+    <Subject>ECIA</Subject>
+    <Activity_Tag>TD</Activity_Tag>
+    <Students>groupe 1-A</Students>
+    <Duration>1</Duration>
+    <Total_Duration>24.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>L. Membre</Teacher>
+    <Subject>ECIA</Subject>
+    <Activity_Tag>TD</Activity_Tag>
+    <Students>groupe 1-B</Students>
+    <Duration>1</Duration>
+    <Total_Duration>24.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>S. Lambin</Teacher>
+    <Subject>ECIA</Subject>
+    <Activity_Tag>TD</Activity_Tag>
+    <Students>groupe 1-C</Students>
+    <Duration>1</Duration>
+    <Total_Duration>24.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>L. Membre</Teacher>
+    <Subject>ECIA</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-A-1</Students>
+    <Duration>1</Duration>
+    <Total_Duration>6.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>S. Lambin</Teacher>
+    <Subject>ECIA</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-B-1</Students>
+    <Duration>1</Duration>
+    <Total_Duration>6.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>L. Membre</Teacher>
+    <Subject>ECIA</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-C-1</Students>
+    <Duration>1</Duration>
+    <Total_Duration>6.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>S. Lambin</Teacher>
+    <Subject>ECIA</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-A-2</Students>
+    <Duration>1</Duration>
+    <Total_Duration>6.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>L. Membre</Teacher>
+    <Subject>ECIA</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-B-2</Students>
+    <Duration>1</Duration>
+    <Total_Duration>6.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>S. Lambin</Teacher>
+    <Subject>ECIA</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-C-2</Students>
+    <Duration>1</Duration>
+    <Total_Duration>6.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>E. Ballinger</Teacher>
+    <Subject>Anglais-2</Subject>
+    <Activity_Tag>TD</Activity_Tag>
+    <Students>groupe 1-A</Students>
+    <Duration>1</Duration>
+    <Total_Duration>21.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>C. Guerville</Teacher>
+    <Subject>Anglais-2</Subject>
+    <Activity_Tag>TD</Activity_Tag>
+    <Students>groupe 1-B</Students>
+    <Duration>1</Duration>
+    <Total_Duration>21.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>C. Guerville</Teacher>
+    <Subject>Anglais-2</Subject>
+    <Activity_Tag>TD</Activity_Tag>
+    <Students>groupe 1-C</Students>
+    <Duration>1</Duration>
+    <Total_Duration>21.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>C. Guerville</Teacher>
+    <Subject>Anglais-2</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-A-1</Students>
+    <Duration>1</Duration>
+    <Total_Duration>24.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>C. Guerville</Teacher>
+    <Subject>Anglais-2</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-B-1</Students>
+    <Duration>1</Duration>
+    <Total_Duration>24.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>E. Ballinger</Teacher>
+    <Subject>Anglais-2</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-C-1</Students>
+    <Duration>1</Duration>
+    <Total_Duration>24.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>C. Guerville</Teacher>
+    <Subject>Anglais-2</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-A-2</Students>
+    <Duration>1</Duration>
+    <Total_Duration>24.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>E. Ballinger</Teacher>
+    <Subject>Anglais-2</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-B-2</Students>
+    <Duration>1</Duration>
+    <Total_Duration>24.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>E. Ballinger</Teacher>
+    <Subject>Anglais-2</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-C-2</Students>
+    <Duration>1</Duration>
+    <Total_Duration>24.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>M. Masquelin</Teacher>
+    <Subject>PPP-2</Subject>
+    <Activity_Tag>TD</Activity_Tag>
+    <Students>groupe 1-A</Students>
+    <Duration>1</Duration>
+    <Total_Duration>10.50</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>G. De Smet</Teacher>
+    <Subject>PPP-2</Subject>
+    <Activity_Tag>TD</Activity_Tag>
+    <Students>groupe 1-B</Students>
+    <Duration>1</Duration>
+    <Total_Duration>10.50</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>M. Masquelin</Teacher>
+    <Subject>PPP-2</Subject>
+    <Activity_Tag>TD</Activity_Tag>
+    <Students>groupe 1-C</Students>
+    <Duration>1</Duration>
+    <Total_Duration>10.50</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>M. Masquelin</Teacher>
+    <Subject>PPP-2</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-A-1</Students>
+    <Duration>1</Duration>
+    <Total_Duration>10.50</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>G. De Smet</Teacher>
+    <Subject>PPP-2</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-B-1</Students>
+    <Duration>1</Duration>
+    <Total_Duration>10.50</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>M. Masquelin</Teacher>
+    <Subject>PPP-2</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-C-1</Students>
+    <Duration>1</Duration>
+    <Total_Duration>10.50</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>M. Masquelin</Teacher>
+    <Subject>PPP-2</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-A-2</Students>
+    <Duration>1</Duration>
+    <Total_Duration>10.50</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>G. De Smet</Teacher>
+    <Subject>PPP-2</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-B-2</Students>
+    <Duration>1</Duration>
+    <Total_Duration>10.50</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>G. De Smet</Teacher>
+    <Subject>PPP-2</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-C-2</Students>
+    <Duration>1</Duration>
+    <Total_Duration>10.50</Total_Duration>
+</Activity>
+</Activities_List>

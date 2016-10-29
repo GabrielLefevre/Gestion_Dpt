@@ -23,10 +23,10 @@ function __autoload($classname) {
 
 
 
-$exec = new Traitement("S1");
+$exec = new Traitement("S2");
 
-//$exec->generationFichiersXML();
-$exec->dataActivity();
+$exec->generationFichiersXML();
+
 ?>
 </body>
 </html>

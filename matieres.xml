@@ -1,68 +1,56 @@
 <Subjects_List>
 <Subject>
-    <Name>Soutien</Name>
-</Subject>
-<Subject>
-    <Name>Tutorat</Name>
-</Subject>
-<Subject>
-    <Name>Recrutement</Name>
+    <Name>Projet</Name>
 </Subject>
 <Subject>
     <Name>PPP</Name>
 </Subject>
 <Subject>
-    <Name>Projet</Name>
+    <Name>Tutorat</Name>
 </Subject>
 <Subject>
-    <Name>SE-1</Name>
+    <Name>SE-2</Name>
 </Subject>
 <Subject>
-    <Name>AP-1</Name>
+    <Name>RX-1</Name>
 </Subject>
 <Subject>
-    <Name>SD-1</Name>
+    <Name>POO-1</Name>
 </Subject>
 <Subject>
-    <Name>BD-1</Name>
+    <Name>COO-1</Name>
 </Subject>
 <Subject>
-    <Name>CDIN</Name>
+    <Name>IHM-1</Name>
 </Subject>
 <Subject>
-    <Name>PT-1</Name>
+    <Name>BD-2</Name>
 </Subject>
 <Subject>
-    <Name>MD</Name>
+    <Name>PT-2</Name>
 </Subject>
 <Subject>
-    <Name>Alg</Name>
+    <Name>GL</Name>
 </Subject>
 <Subject>
-    <Name>EE</Name>
+    <Name>AN</Name>
 </Subject>
 <Subject>
-    <Name>Orga</Name>
+    <Name>ECFJS</Name>
 </Subject>
 <Subject>
-    <Name>FCOM</Name>
+    <Name>GPI</Name>
 </Subject>
 <Subject>
-    <Name>AI</Name>
+    <Name>ECIA</Name>
 </Subject>
 <Subject>
-    <Name>PPP-1</Name>
+    <Name>Anglais-2</Name>
 </Subject>
 <Subject>
-    <Name>CDINc</Name>
+    <Name>PPP-2</Name>
 </Subject>
 <Subject>
-    <Name>Recherche Documentaire</Name>
-</Subject>
-<Subject>
-    <Name>Conférences </Name>
-</Subject>
-<Subject>
-    <Name>Forum</Name>
+    <Name>Journées portes ouvertes</Name>
 </Subject>
 </Subjects_List>

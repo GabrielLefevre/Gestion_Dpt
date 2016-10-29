@@ -33,7 +33,7 @@
     <Name>L. Membre</Name>
 </Teacher>
 <Teacher>
-    <Name>M. Roger</Name>
+    <Name>C. Piette</Name>
 </Teacher>
 <Teacher>
     <Name>O. Roussel</Name>
@@ -48,6 +48,9 @@
     <Name>Y. Fregier</Name>
 </Teacher>
 <Teacher>
+    <Name>A. Choukhi</Name>
+</Teacher>
+<Teacher>
     <Name>F. Pistej</Name>
 </Teacher>
 <Teacher>
@@ -60,37 +63,22 @@
     <Name>Y. Salhi</Name>
 </Teacher>
 <Teacher>
-    <Name>S. Thomas</Name>
-</Teacher>
-<Teacher>
     <Name>C. Guerville</Name>
 </Teacher>
 <Teacher>
     <Name>JM. Lagniez</Name>
 </Teacher>
 <Teacher>
-    <Name>M. Sioutis</Name>
-</Teacher>
-<Teacher>
     <Name>S. Lambin</Name>
 </Teacher>
 <Teacher>
-    <Name>N. Gharbi</Name>
-</Teacher>
-<Teacher>
-    <Name>A. Delay</Name>
+    <Name>A. Boussemart</Name>
 </Teacher>
 <Teacher>
     <Name>M. Masquelin</Name>
 </Teacher>
 <Teacher>
-    <Name>T. Caridroit</Name>
-</Teacher>
-<Teacher>
-    <Name>J. Delobelle </Name>
-</Teacher>
-<Teacher>
-    <Name>B. Fourlegnie</Name>
+    <Name>E. Ballinger</Name>
 </Teacher>
 <Teacher>
     <Name>G. De Smet</Name>
@@ -99,6 +87,9 @@
     <Name>F. Essghaier</Name>
 </Teacher>
 <Teacher>
-    <Name>V. Prensier</Name>
+    <Name>IJ. Varzinczak</Name>
+</Teacher>
+<Teacher>
+    <Name>V. Montmirail</Name>
 </Teacher>
 </Teachers_List>

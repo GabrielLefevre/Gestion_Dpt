@@ -38,3 +38,14 @@ Array (
     [Delacroix] => SD-1
     [Lagniez] => SE-1
     [Koriche] => SD-1  )
+
+
+    Array (
+     [0] => Array (
+        [0] => Prensier [1] => AI )
+     [1] => Array (
+        [0] => Guerville [1] => AI )
+     [2] => Array (
+        [0] => Delay [1] => AI )
+     [3] => Array (
+        [0] => El Rezzi [1] => Alg )

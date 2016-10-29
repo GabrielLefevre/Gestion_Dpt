@@ -7,8 +7,9 @@ class Traitement {
     private $semestre;
 
     /**
-     * Traitement constructor.
+     * Traitement constructor, connexion à la BDD.
      */
+
     public function __construct($sem)
     {
         $this->semestre=$sem;
@@ -24,7 +25,16 @@ class Traitement {
         }
     }
 
-
+    /**
+     * Fonction generant le fichier professeurs.xml
+     * <Teachers_List>
+    <Teacher>
+    <Name>G. Audemard</Name>
+    </Teacher>
+    <Teacher>
+    <Name>F. Boussemart</Name>
+    </Teacher>
+     */
 
     function listeProfs() {
         $filename = 'professeurs.xml';
@@ -47,6 +57,19 @@ class Traitement {
     }// listeProfs
 
 
+    /**
+     * Fonction generant le fichier matieres.xml
+     * <Subjects_List>
+    <Subject>
+    <Name>Projet</Name>
+    </Subject>
+    <Subject>
+    <Name>PPP</Name>
+    </Subject>
+    <Subject>
+    <Name>SE-2</Name>
+    </Subject>
+     */
 
     function listeMatieres() {;
         $filename = 'matieres.xml';
@@ -69,6 +92,9 @@ class Traitement {
     }// listeMatieres
 
 
+    /**
+     * fonction qui recupere les information de la table disponibilite et les convertie dans un tableau en string qui correspondent aux créneaux de l'IUT
+     */
 
     function traitementHoraire($tabH, $tabJ) {
         $tabDispo = array();
@@ -98,6 +124,21 @@ class Traitement {
     } // traitementHoraire
 
 
+    /**
+     * Fonction generant le fichier dispo.xml
+     * <ConstraintTeacherNotAvailableTimes>
+    <Weight_Percentage>100</Weight_Percentage>
+    <Teacher>Coste</Teacher>
+    <Number_of_Not_Available_Times>24</Number_of_Not_Available_Times>
+    <Not_Available_Time>
+    <Day>Lundi</Day>
+    <Hour>11:30-12:45</Hour>
+    </Not_Available_Time>
+    <Not_Available_Time>
+    <Day>Lundi</Day>
+    <Hour>12:45-14:15</Hour>
+    </Not_Available_Time>
+     */
 
     function listeDispoProfs() {
         $filename = 'dispo.xml';
@@ -164,30 +205,17 @@ class Traitement {
         echo "Generation du fichiers dispo.xml réussi ...".PHP_EOL;
     } // listeDispoProfs
 
-
+    /**
+     * Fonction qui recupère les informations dans la BDD qui vont permettre le traitement du fichier activity.xml
+     */
 
     function dataActivity() {
-        $tabGroup = array();
         $tabNbHoursSubject = array();
         $tabMatProf = array();
-        if($this->semestre=="S2") {
-            $sem="S1";
-        }
-        else {
-            $sem=$this->semestre;
-        }
-
-        $sql='SELECT name FROM groupe WHERE groupe.dept="INFO" AND groupe.semester=?';
-        $stmt=$this->bdd->prepare($sql);
-        $stmt ->bindParam(1,$sem);
-        $stmt->execute();
-        while($ligne = $stmt->fetch(PDO :: FETCH_ASSOC)){
-            $tabGroup[]=$ligne['name'];
-        }
 
         $sql='select subject.shortname, nbcmhours, nbtdhours, nbtphours from subject join course on subject.id=course.subject_id where dept="INFO" and semester=?';
         $stmt=$this->bdd->prepare($sql);
-        $stmt ->bindParam(1,$sem);
+        $stmt ->bindParam(1,$this->semestre);
         $stmt->execute();
         $k=0;
         while($ligne = $stmt->fetch(PDO :: FETCH_ASSOC)){
@@ -204,11 +232,11 @@ class Traitement {
 
         $sql='select t.name, s.shortname from teacher t join planning pl on t.id=pl.teacher_id join course c on pl.course_id=c.id join subject s on c.subject_id=s.id where t.dept="INFO" and c.semester=? order by s.shortname';
         $stmt=$this->bdd->prepare($sql);
-        $stmt ->bindParam(1,$sem);
+        $stmt ->bindParam(1,$this->semestre);
         $stmt->execute();
         while($ligne = $stmt->fetch(PDO :: FETCH_ASSOC)){
             if(in_array( $ligne['shortname'],array_keys($tabNbHoursSubject))) {
-                $tabMatProf[$ligne['name']] =  $ligne['shortname']; // a modifier !!
+                $tabMatProf[] = array($ligne['name'],$ligne['shortname']);
             }
 
         }
@@ -216,62 +244,122 @@ class Traitement {
         $this->listeActivity($tabNbHoursSubject,$tabMatProf);
     }
 
+
+    /**
+     * Fonction generant le fichier activity.xml
+     * <Activities_List>
+    <Activity>
+    <Teacher>-</Teacher>
+    <Subject>Projet</Subject>
+    <Activity_Tag>TD</Activity_Tag>
+    <Students>groupe 1-A</Students>
+    <Duration>1</Duration>
+    <Total_Duration>6.00</Total_Duration>
+    </Activity>
+    <Activity>
+    <Teacher>-</Teacher>
+    <Subject>Projet</Subject>
+    <Activity_Tag>TD</Activity_Tag>
+    <Students>groupe 1-B</Students>
+    <Duration>1</Duration>
+    <Total_Duration>6.00</Total_Duration>
+    </Activity>
+     */
+
     function listeActivity($tabHS,$tabMP) {
-        $tabCours=["CM","TD","TP"];
         if($this->semestre=="S2") {
             $sem="S1";
         }
         else {
             $sem=$this->semestre;
         }
+        $filename = 'activity.xml';
+        if(!file_exists($filename)) {
+            fopen("activity.xml","w+");
+            echo "création fichier activity.xml".PHP_EOL;
+        }
+        file_put_contents('activity.xml', '');
+        $xml="<Activities_List>".PHP_EOL;
+
+        $tabCours=["CM","TD","TP"];
         for ($i=0;$i<count($tabHS);$i++) {
-            echo "<br />".key($tabHS)." "."<br/>";
+           // echo "<br />".key($tabHS)." "."<br/>"; // nom des matieres
             $tabProf = array();
-            foreach ($tabMP as $key => $values) {
-                if(key($tabHS) == $values) {
-                    $tabProf[] = $key;
+            for ($z=0;$z<count($tabMP);$z++) {
+                if(key($tabHS) == $tabMP[$z][1]) {
+                    $sql='select shortname from teacher where name=?';
+                    $stmt=$this->bdd->prepare($sql);
+                    $stmt ->bindParam(1,$tabMP[$z][0]);
+                    $stmt->execute();
+                    $ligne = $stmt->fetch(PDO :: FETCH_ASSOC);
+                    $tabProf[] = $ligne['shortname'];
                 }
             }
-            print_r($tabProf);
-            //print_r($tabProf);
+
+            //print_r($tabProf); // tab des profs dispo pour la matiere
 
              for ($j=0;$j<3;$j++) {
                  if($tabHS[key($tabHS)][$tabCours[$j]] != 0.00) {
-                     echo $tabCours[$j]." : ".$tabHS[key($tabHS)][$tabCours[$j]]." ";
+                    // echo $tabCours[$j]." : ".$tabHS[key($tabHS)][$tabCours[$j]]." "; // le cours + les heures
+
+                     $sql='select name from groupe where semester=? and maingroupe=? and defaulttype=?';
+                     $stmt=$this->bdd->prepare($sql);
+                     $stmt ->bindParam(1,$sem);
+                     $mainG="";
+                     if($this->semestre == "S1" || $this->semestre == "S2") {
+                         $mainG="INFO 1";
+                     }
+                     if($this->semestre == "S3" || $this->semestre == "S4") {
+                         $mainG="INFO 2";
+                     }
+                     if($this->semestre == "S5") {
+                         $mainG="LP Sécurite";
+                     }
+                     $stmt ->bindParam(2,$mainG);
+                     $stmt ->bindParam(3,$tabCours[$j]);
+
+                     $stmt->execute();
+                     $tabG= array();
+                     while($ligne = $stmt->fetch(PDO :: FETCH_ASSOC)){
+                         $tabG[] = $ligne['name'];
+                     }
+                     //print_r($tabG);
+                     for($x=0;$x<count($tabG);$x++) {
+                         if((count($tabProf)-1)>=0) {
+                             $rdm = rand(0,(count($tabProf)-1));
+                             $xml.="<Activity>".PHP_EOL."    <Teacher>".$tabProf[$rdm]."</Teacher>".PHP_EOL."    <Subject>".key($tabHS)."</Subject>".PHP_EOL."    <Activity_Tag>".$tabCours[$j]."</Activity_Tag>".PHP_EOL;
+                         }
+                         else {
+                             $xml.="<Activity>".PHP_EOL."    <Teacher>-</Teacher>".PHP_EOL."    <Subject>".key($tabHS)."</Subject>".PHP_EOL."    <Activity_Tag>".$tabCours[$j]."</Activity_Tag>".PHP_EOL;
+                         }
+
+                         $xml.="    <Students>".$tabG[$x]."</Students>".PHP_EOL."    <Duration>1</Duration>".PHP_EOL."    <Total_Duration>".$tabHS[key($tabHS)][$tabCours[$j]]."</Total_Duration>".PHP_EOL."</Activity>".PHP_EOL;
+                     }
+
+
                  }
 
              }
+
+
              next($tabHS);
+
         }
+        $xml.="</Activities_List>";
+        file_put_contents("activity.xml",$xml);
+        echo "Generation du fichiers activity.xml réussi ...".PHP_EOL;
     }
 
-    /*
-     * Array (
-    [Prensier] => AI
-    [Guerville] => AI
+
+    /**
+     * Fonction d'appel de generation des fichiers .xml
      */
-
-    /*
-     * [PPP] => Array
-            (
-                [CM] => 0.00
-                [TD] => 12.00
-                [TP] => 0.00
-            )
-
-        [SE-1] => Array
-            (
-                [CM] => 12.00
-                [TD] => 24.00
-                [TP] => 24.00
-            )
-     */
-
 
     function generationFichiersXML() {
         $this->listeProfs();
         $this->listeMatieres();
         $this->listeDispoProfs();
+        $this->dataActivity();
     }
 
 }
