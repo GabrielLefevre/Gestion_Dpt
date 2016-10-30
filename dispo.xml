@@ -1,14 +1,10 @@
 <ConstraintTeacherNotAvailableTimes>
     <Weight_Percentage>100</Weight_Percentage>
     <Teacher>Coste</Teacher>
-    <Number_of_Not_Available_Times>24</Number_of_Not_Available_Times>
+    <Number_of_Not_Available_Times>23</Number_of_Not_Available_Times>
     <Not_Available_Time>
         <Day>Lundi</Day>
         <Hour>11:30-12:45</Hour>
-    </Not_Available_Time>
-    <Not_Available_Time>
-        <Day>Lundi</Day>
-        <Hour>12:45-14:15</Hour>
     </Not_Available_Time>
     <Not_Available_Time>
         <Day>Mardi</Day>
@@ -457,7 +453,7 @@
         <Hour>16:00-17:30</Hour>
     </Not_Available_Time>
     <Teacher>Membré</Teacher>
-    <Number_of_Not_Available_Times>10</Number_of_Not_Available_Times>
+    <Number_of_Not_Available_Times>7</Number_of_Not_Available_Times>
     <Not_Available_Time>
         <Day>Lundi</Day>
         <Hour>08:15-09:45</Hour>
@@ -465,18 +461,6 @@
     <Not_Available_Time>
         <Day>Lundi</Day>
         <Hour>10:00-11:30</Hour>
-    </Not_Available_Time>
-    <Not_Available_Time>
-        <Day>Lundi</Day>
-        <Hour>16:00-17:30</Hour>
-    </Not_Available_Time>
-    <Not_Available_Time>
-        <Day>Mercredi</Day>
-        <Hour>16:00-17:30</Hour>
-    </Not_Available_Time>
-    <Not_Available_Time>
-        <Day>Jeudi</Day>
-        <Hour>12:45-14:15</Hour>
     </Not_Available_Time>
     <Not_Available_Time>
         <Day>Jeudi</Day>
@@ -609,23 +593,7 @@
         <Hour>16:00-17:30</Hour>
     </Not_Available_Time>
     <Teacher>Roussel</Teacher>
-    <Number_of_Not_Available_Times>8</Number_of_Not_Available_Times>
-    <Not_Available_Time>
-        <Day>Lundi</Day>
-        <Hour>08:15-09:45</Hour>
-    </Not_Available_Time>
-    <Not_Available_Time>
-        <Day>Mardi</Day>
-        <Hour>08:15-09:45</Hour>
-    </Not_Available_Time>
-    <Not_Available_Time>
-        <Day>Mercredi</Day>
-        <Hour>08:15-09:45</Hour>
-    </Not_Available_Time>
-    <Not_Available_Time>
-        <Day>Jeudi</Day>
-        <Hour>08:15-09:45</Hour>
-    </Not_Available_Time>
+    <Number_of_Not_Available_Times>3</Number_of_Not_Available_Times>
     <Not_Available_Time>
         <Day>Jeudi</Day>
         <Hour>12:45-14:15</Hour>
@@ -637,10 +605,6 @@
     <Not_Available_Time>
         <Day>Jeudi</Day>
         <Hour>16:00-17:30</Hour>
-    </Not_Available_Time>
-    <Not_Available_Time>
-        <Day>Vendredi</Day>
-        <Hour>08:15-09:45</Hour>
     </Not_Available_Time>
     <Teacher>Roger</Teacher>
     <Number_of_Not_Available_Times>9</Number_of_Not_Available_Times>
@@ -743,7 +707,7 @@
         <Hour>16:00-17:30</Hour>
     </Not_Available_Time>
     <Teacher>Koriche</Teacher>
-    <Number_of_Not_Available_Times>20</Number_of_Not_Available_Times>
+    <Number_of_Not_Available_Times>19</Number_of_Not_Available_Times>
     <Not_Available_Time>
         <Day>Lundi</Day>
         <Hour>08:15-09:45</Hour>
@@ -819,10 +783,6 @@
     <Not_Available_Time>
         <Day>Vendredi</Day>
         <Hour>12:45-14:15</Hour>
-    </Not_Available_Time>
-    <Not_Available_Time>
-        <Day>Vendredi</Day>
-        <Hour>14:15-15:45</Hour>
     </Not_Available_Time>
     <Teacher>Saralegi</Teacher>
     <Number_of_Not_Available_Times>21</Number_of_Not_Available_Times>
@@ -929,7 +889,7 @@
         <Hour>16:00-17:30</Hour>
     </Not_Available_Time>
     <Teacher>El Rezzi</Teacher>
-    <Number_of_Not_Available_Times>16</Number_of_Not_Available_Times>
+    <Number_of_Not_Available_Times>15</Number_of_Not_Available_Times>
     <Not_Available_Time>
         <Day>Lundi</Day>
         <Hour>08:15-09:45</Hour>
@@ -937,10 +897,6 @@
     <Not_Available_Time>
         <Day>Lundi</Day>
         <Hour>10:00-11:30</Hour>
-    </Not_Available_Time>
-    <Not_Available_Time>
-        <Day>Lundi</Day>
-        <Hour>14:15-15:45</Hour>
     </Not_Available_Time>
     <Not_Available_Time>
         <Day>Lundi</Day>
@@ -1177,15 +1133,7 @@
         <Hour>16:00-17:30</Hour>
     </Not_Available_Time>
     <Teacher>Samy Modeliar</Teacher>
-    <Number_of_Not_Available_Times>15</Number_of_Not_Available_Times>
-    <Not_Available_Time>
-        <Day>Lundi</Day>
-        <Hour>08:15-09:45</Hour>
-    </Not_Available_Time>
-    <Not_Available_Time>
-        <Day>Mardi</Day>
-        <Hour>08:15-09:45</Hour>
-    </Not_Available_Time>
+    <Number_of_Not_Available_Times>12</Number_of_Not_Available_Times>
     <Not_Available_Time>
         <Day>Mercredi</Day>
         <Hour>08:15-09:45</Hour>
@@ -1233,10 +1181,6 @@
     <Not_Available_Time>
         <Day>Jeudi</Day>
         <Hour>16:00-17:30</Hour>
-    </Not_Available_Time>
-    <Not_Available_Time>
-        <Day>Vendredi</Day>
-        <Hour>08:15-09:45</Hour>
     </Not_Available_Time>
  <Active>true</Active>
 <Comments></Comments>

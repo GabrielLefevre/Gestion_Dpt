@@ -100,22 +100,22 @@ class Traitement {
         $tabDispo = array();
         for ($i=0;$i<5;$i++) {
             if(array_key_exists($tabJ[$i],$tabH)) {
-                if(in_array(8,$tabH[$tabJ[$i]]) || in_array(9,$tabH[$tabJ[$i]])  ) {
+                if(in_array(8,$tabH[$tabJ[$i]]) && in_array(9,$tabH[$tabJ[$i]])  ) {
                     $tabDispo[$tabJ[$i]][] = "08:15-09:45";
                 }
-                if(in_array(10,$tabH[$tabJ[$i]]) || in_array(11,$tabH[$tabJ[$i]]) ) {
+                if(in_array(10,$tabH[$tabJ[$i]]) && in_array(11,$tabH[$tabJ[$i]]) ) {
                     $tabDispo[$tabJ[$i]][] = "10:00-11:30";
                 }
                 if(in_array(12,$tabH[$tabJ[$i]])) {
                     $tabDispo[$tabJ[$i]][] = "11:30-12:45";
                 }
-                if(in_array(13,$tabH[$tabJ[$i]]) || in_array(14,$tabH[$tabJ[$i]]) ) {
+                if(in_array(13,$tabH[$tabJ[$i]]) && in_array(14,$tabH[$tabJ[$i]]) ) {
                     $tabDispo[$tabJ[$i]][] = "12:45-14:15";
                 }
-                if(in_array(14,$tabH[$tabJ[$i]]) || in_array(15,$tabH[$tabJ[$i]]) ) {
+                if(in_array(14,$tabH[$tabJ[$i]]) && in_array(15,$tabH[$tabJ[$i]]) ) {
                     $tabDispo[$tabJ[$i]][] = "14:15-15:45";
                 }
-                if(in_array(16,$tabH[$tabJ[$i]]) || in_array(17,$tabH[$tabJ[$i]]) ) {
+                if(in_array(16,$tabH[$tabJ[$i]]) && in_array(17,$tabH[$tabJ[$i]]) ) {
                     $tabDispo[$tabJ[$i]][] = "16:00-17:30";
                 }
             }

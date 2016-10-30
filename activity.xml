@@ -24,7 +24,7 @@
     <Total_Duration>6.00</Total_Duration>
 </Activity>
 <Activity>
-    <Teacher>JM. Lagniez</Teacher>
+    <Teacher>S. Tabary</Teacher>
     <Subject>SE-2</Subject>
     <Activity_Tag>CM</Activity_Tag>
     <Students>INFO 1</Students>
@@ -40,7 +40,7 @@
     <Total_Duration>12.00</Total_Duration>
 </Activity>
 <Activity>
-    <Teacher>JM. Lagniez</Teacher>
+    <Teacher>O. Roussel</Teacher>
     <Subject>SE-2</Subject>
     <Activity_Tag>TD</Activity_Tag>
     <Students>groupe 1-B</Students>
@@ -48,7 +48,7 @@
     <Total_Duration>12.00</Total_Duration>
 </Activity>
 <Activity>
-    <Teacher>F. Hemery</Teacher>
+    <Teacher>V. Montmirail</Teacher>
     <Subject>SE-2</Subject>
     <Activity_Tag>TD</Activity_Tag>
     <Students>groupe 1-C</Students>
@@ -56,7 +56,7 @@
     <Total_Duration>12.00</Total_Duration>
 </Activity>
 <Activity>
-    <Teacher>S. Coste</Teacher>
+    <Teacher>F. Hemery</Teacher>
     <Subject>SE-2</Subject>
     <Activity_Tag>TP</Activity_Tag>
     <Students>groupe 1-A-1</Students>
@@ -72,7 +72,7 @@
     <Total_Duration>12.00</Total_Duration>
 </Activity>
 <Activity>
-    <Teacher>F. Hemery</Teacher>
+    <Teacher>S. Tabary</Teacher>
     <Subject>SE-2</Subject>
     <Activity_Tag>TP</Activity_Tag>
     <Students>groupe 1-C-1</Students>
@@ -80,7 +80,7 @@
     <Total_Duration>12.00</Total_Duration>
 </Activity>
 <Activity>
-    <Teacher>S. Coste</Teacher>
+    <Teacher>JM. Lagniez</Teacher>
     <Subject>SE-2</Subject>
     <Activity_Tag>TP</Activity_Tag>
     <Students>groupe 1-A-2</Students>
@@ -88,7 +88,7 @@
     <Total_Duration>12.00</Total_Duration>
 </Activity>
 <Activity>
-    <Teacher>S. Coste</Teacher>
+    <Teacher>V. Montmirail</Teacher>
     <Subject>SE-2</Subject>
     <Activity_Tag>TP</Activity_Tag>
     <Students>groupe 1-B-2</Students>
@@ -96,7 +96,7 @@
     <Total_Duration>12.00</Total_Duration>
 </Activity>
 <Activity>
-    <Teacher>S. Coste</Teacher>
+    <Teacher>JM. Lagniez</Teacher>
     <Subject>SE-2</Subject>
     <Activity_Tag>TP</Activity_Tag>
     <Students>groupe 1-C-2</Students>
@@ -104,7 +104,7 @@
     <Total_Duration>12.00</Total_Duration>
 </Activity>
 <Activity>
-    <Teacher>IJ. Varzinczak</Teacher>
+    <Teacher>S. Coste</Teacher>
     <Subject>RX-1</Subject>
     <Activity_Tag>CM</Activity_Tag>
     <Students>INFO 1</Students>
@@ -112,7 +112,7 @@
     <Total_Duration>6.00</Total_Duration>
 </Activity>
 <Activity>
-    <Teacher>F. Essghaier</Teacher>
+    <Teacher>S. Coste</Teacher>
     <Subject>RX-1</Subject>
     <Activity_Tag>TD</Activity_Tag>
     <Students>groupe 1-A</Students>
@@ -120,7 +120,7 @@
     <Total_Duration>12.00</Total_Duration>
 </Activity>
 <Activity>
-    <Teacher>S. Coste</Teacher>
+    <Teacher>A. Choukhi</Teacher>
     <Subject>RX-1</Subject>
     <Activity_Tag>TD</Activity_Tag>
     <Students>groupe 1-B</Students>
@@ -128,7 +128,7 @@
     <Total_Duration>12.00</Total_Duration>
 </Activity>
 <Activity>
-    <Teacher>S. Coste</Teacher>
+    <Teacher>A. Choukhi</Teacher>
     <Subject>RX-1</Subject>
     <Activity_Tag>TD</Activity_Tag>
     <Students>groupe 1-C</Students>
@@ -144,7 +144,7 @@
     <Total_Duration>12.00</Total_Duration>
 </Activity>
 <Activity>
-    <Teacher>O. Roussel</Teacher>
+    <Teacher>IJ. Varzinczak</Teacher>
     <Subject>RX-1</Subject>
     <Activity_Tag>TP</Activity_Tag>
     <Students>groupe 1-B-1</Students>
@@ -152,7 +152,7 @@
     <Total_Duration>12.00</Total_Duration>
 </Activity>
 <Activity>
-    <Teacher>F. Essghaier</Teacher>
+    <Teacher>S. Coste</Teacher>
     <Subject>RX-1</Subject>
     <Activity_Tag>TP</Activity_Tag>
     <Students>groupe 1-C-1</Students>
@@ -160,7 +160,7 @@
     <Total_Duration>12.00</Total_Duration>
 </Activity>
 <Activity>
-    <Teacher>S. Coste</Teacher>
+    <Teacher>O. Roussel</Teacher>
     <Subject>RX-1</Subject>
     <Activity_Tag>TP</Activity_Tag>
     <Students>groupe 1-A-2</Students>
@@ -168,7 +168,7 @@
     <Total_Duration>12.00</Total_Duration>
 </Activity>
 <Activity>
-    <Teacher>S. Coste</Teacher>
+    <Teacher>A. Choukhi</Teacher>
     <Subject>RX-1</Subject>
     <Activity_Tag>TP</Activity_Tag>
     <Students>groupe 1-B-2</Students>
@@ -176,7 +176,7 @@
     <Total_Duration>12.00</Total_Duration>
 </Activity>
 <Activity>
-    <Teacher>O. Roussel</Teacher>
+    <Teacher>S. Coste</Teacher>
     <Subject>RX-1</Subject>
     <Activity_Tag>TP</Activity_Tag>
     <Students>groupe 1-C-2</Students>
@@ -184,7 +184,7 @@
     <Total_Duration>12.00</Total_Duration>
 </Activity>
 <Activity>
-    <Teacher>Y. Salhi</Teacher>
+    <Teacher>T. Delacroix</Teacher>
     <Subject>POO-1</Subject>
     <Activity_Tag>CM</Activity_Tag>
     <Students>INFO 1</Students>
@@ -192,7 +192,7 @@
     <Total_Duration>12.00</Total_Duration>
 </Activity>
 <Activity>
-    <Teacher>Y. Salhi</Teacher>
+    <Teacher>T. Delacroix</Teacher>
     <Subject>POO-1</Subject>
     <Activity_Tag>TD</Activity_Tag>
     <Students>groupe 1-A</Students>
@@ -200,7 +200,7 @@
     <Total_Duration>18.00</Total_Duration>
 </Activity>
 <Activity>
-    <Teacher>T. Hsu</Teacher>
+    <Teacher>IJ. Varzinczak</Teacher>
     <Subject>POO-1</Subject>
     <Activity_Tag>TD</Activity_Tag>
     <Students>groupe 1-B</Students>
@@ -208,7 +208,7 @@
     <Total_Duration>18.00</Total_Duration>
 </Activity>
 <Activity>
-    <Teacher>T. Hsu</Teacher>
+    <Teacher>Y. Salhi</Teacher>
     <Subject>POO-1</Subject>
     <Activity_Tag>TD</Activity_Tag>
     <Students>groupe 1-C</Students>
@@ -220,6 +220,14 @@
     <Subject>POO-1</Subject>
     <Activity_Tag>TP</Activity_Tag>
     <Students>groupe 1-A-1</Students>
+    <Duration>1</Duration>
+    <Total_Duration>30.00</Total_Duration>
+</Activity>
+<Activity>
+    <Teacher>IJ. Varzinczak</Teacher>
+    <Subject>POO-1</Subject>
+    <Activity_Tag>TP</Activity_Tag>
+    <Students>groupe 1-B-1</Students>
     <Duration>1</Duration>
     <Total_Duration>30.00</Total_Duration>
 </Activity>
@@ -227,20 +235,12 @@
     <Teacher>T. Delacroix</Teacher>
     <Subject>POO-1</Subject>
     <Activity_Tag>TP</Activity_Tag>
-    <Students>groupe 1-B-1</Students>
-    <Duration>1</Duration>
-    <Total_Duration>30.00</Total_Duration>
-</Activity>
-<Activity>
-    <Teacher>T. Hsu</Teacher>
-    <Subject>POO-1</Subject>
-    <Activity_Tag>TP</Activity_Tag>
     <Students>groupe 1-C-1</Students>
     <Duration>1</Duration>
     <Total_Duration>30.00</Total_Duration>
 </Activity>
 <Activity>
-    <Teacher>Y. Salhi</Teacher>
+    <Teacher>JF. Condotta</Teacher>
     <Subject>POO-1</Subject>
     <Activity_Tag>TP</Activity_Tag>
     <Students>groupe 1-A-2</Students>
@@ -248,7 +248,7 @@
     <Total_Duration>30.00</Total_Duration>
 </Activity>
 <Activity>
-    <Teacher>IJ. Varzinczak</Teacher>
+    <Teacher>T. Delacroix</Teacher>
     <Subject>POO-1</Subject>
     <Activity_Tag>TP</Activity_Tag>
     <Students>groupe 1-B-2</Students>
@@ -256,7 +256,7 @@
     <Total_Duration>30.00</Total_Duration>
 </Activity>
 <Activity>
-    <Teacher>Y. Salhi</Teacher>
+    <Teacher>T. Hsu</Teacher>
     <Subject>POO-1</Subject>
     <Activity_Tag>TP</Activity_Tag>
     <Students>groupe 1-C-2</Students>
@@ -264,7 +264,7 @@
     <Total_Duration>30.00</Total_Duration>
 </Activity>
 <Activity>
-    <Teacher>IJ. Varzinczak</Teacher>
+    <Teacher>A. Choukhi</Teacher>
     <Subject>COO-1</Subject>
     <Activity_Tag>CM</Activity_Tag>
     <Students>INFO 1</Students>
@@ -272,7 +272,7 @@
     <Total_Duration>12.00</Total_Duration>
 </Activity>
 <Activity>
-    <Teacher>IJ. Varzinczak</Teacher>
+    <Teacher>JF. Condotta</Teacher>
     <Subject>COO-1</Subject>
     <Activity_Tag>TD</Activity_Tag>
     <Students>groupe 1-A</Students>
@@ -304,7 +304,7 @@
     <Total_Duration>18.00</Total_Duration>
 </Activity>
 <Activity>
-    <Teacher>JF. Condotta</Teacher>
+    <Teacher>A. Choukhi</Teacher>
     <Subject>COO-1</Subject>
     <Activity_Tag>TP</Activity_Tag>
     <Students>groupe 1-B-1</Students>
@@ -312,7 +312,7 @@
     <Total_Duration>18.00</Total_Duration>
 </Activity>
 <Activity>
-    <Teacher>IJ. Varzinczak</Teacher>
+    <Teacher>JF. Condotta</Teacher>
     <Subject>COO-1</Subject>
     <Activity_Tag>TP</Activity_Tag>
     <Students>groupe 1-C-1</Students>
@@ -320,7 +320,7 @@
     <Total_Duration>18.00</Total_Duration>
 </Activity>
 <Activity>
-    <Teacher>IJ. Varzinczak</Teacher>
+    <Teacher>JF. Condotta</Teacher>
     <Subject>COO-1</Subject>
     <Activity_Tag>TP</Activity_Tag>
     <Students>groupe 1-A-2</Students>
@@ -328,7 +328,7 @@
     <Total_Duration>18.00</Total_Duration>
 </Activity>
 <Activity>
-    <Teacher>A. Choukhi</Teacher>
+    <Teacher>JF. Condotta</Teacher>
     <Subject>COO-1</Subject>
     <Activity_Tag>TP</Activity_Tag>
     <Students>groupe 1-B-2</Students>
@@ -336,7 +336,7 @@
     <Total_Duration>18.00</Total_Duration>
 </Activity>
 <Activity>
-    <Teacher>JF. Condotta</Teacher>
+    <Teacher>A. Choukhi</Teacher>
     <Subject>COO-1</Subject>
     <Activity_Tag>TP</Activity_Tag>
     <Students>groupe 1-C-2</Students>
@@ -344,7 +344,7 @@
     <Total_Duration>18.00</Total_Duration>
 </Activity>
 <Activity>
-    <Teacher>F. Koriche</Teacher>
+    <Teacher>O. Roussel</Teacher>
     <Subject>IHM-1</Subject>
     <Activity_Tag>CM</Activity_Tag>
     <Students>INFO 1</Students>
@@ -384,7 +384,7 @@
     <Total_Duration>24.00</Total_Duration>
 </Activity>
 <Activity>
-    <Teacher>O. Roussel</Teacher>
+    <Teacher>V. Montmirail</Teacher>
     <Subject>IHM-1</Subject>
     <Activity_Tag>TP</Activity_Tag>
     <Students>groupe 1-B-1</Students>
@@ -392,7 +392,7 @@
     <Total_Duration>24.00</Total_Duration>
 </Activity>
 <Activity>
-    <Teacher>V. Montmirail</Teacher>
+    <Teacher>O. Roussel</Teacher>
     <Subject>IHM-1</Subject>
     <Activity_Tag>TP</Activity_Tag>
     <Students>groupe 1-C-1</Students>
@@ -400,7 +400,7 @@
     <Total_Duration>24.00</Total_Duration>
 </Activity>
 <Activity>
-    <Teacher>F. Hemery</Teacher>
+    <Teacher>F. Koriche</Teacher>
     <Subject>IHM-1</Subject>
     <Activity_Tag>TP</Activity_Tag>
     <Students>groupe 1-A-2</Students>
@@ -408,7 +408,7 @@
     <Total_Duration>24.00</Total_Duration>
 </Activity>
 <Activity>
-    <Teacher>F. Koriche</Teacher>
+    <Teacher>O. Roussel</Teacher>
     <Subject>IHM-1</Subject>
     <Activity_Tag>TP</Activity_Tag>
     <Students>groupe 1-B-2</Students>
@@ -416,7 +416,7 @@
     <Total_Duration>24.00</Total_Duration>
 </Activity>
 <Activity>
-    <Teacher>F. Koriche</Teacher>
+    <Teacher>V. Montmirail</Teacher>
     <Subject>IHM-1</Subject>
     <Activity_Tag>TP</Activity_Tag>
     <Students>groupe 1-C-2</Students>
@@ -424,7 +424,7 @@
     <Total_Duration>24.00</Total_Duration>
 </Activity>
 <Activity>
-    <Teacher>F. Hemery</Teacher>
+    <Teacher>IJ. Varzinczak</Teacher>
     <Subject>BD-2</Subject>
     <Activity_Tag>CM</Activity_Tag>
     <Students>INFO 1</Students>
@@ -432,7 +432,7 @@
     <Total_Duration>10.50</Total_Duration>
 </Activity>
 <Activity>
-    <Teacher>IJ. Varzinczak</Teacher>
+    <Teacher>F. Boussemart</Teacher>
     <Subject>BD-2</Subject>
     <Activity_Tag>TD</Activity_Tag>
     <Students>groupe 1-A</Students>
@@ -440,7 +440,7 @@
     <Total_Duration>15.00</Total_Duration>
 </Activity>
 <Activity>
-    <Teacher>F. Hemery</Teacher>
+    <Teacher>F. Boussemart</Teacher>
     <Subject>BD-2</Subject>
     <Activity_Tag>TD</Activity_Tag>
     <Students>groupe 1-B</Students>
@@ -448,7 +448,7 @@
     <Total_Duration>15.00</Total_Duration>
 </Activity>
 <Activity>
-    <Teacher>F. Boussemart</Teacher>
+    <Teacher>IJ. Varzinczak</Teacher>
     <Subject>BD-2</Subject>
     <Activity_Tag>TD</Activity_Tag>
     <Students>groupe 1-C</Students>
@@ -472,7 +472,7 @@
     <Total_Duration>18.00</Total_Duration>
 </Activity>
 <Activity>
-    <Teacher>IJ. Varzinczak</Teacher>
+    <Teacher>F. Boussemart</Teacher>
     <Subject>BD-2</Subject>
     <Activity_Tag>TP</Activity_Tag>
     <Students>groupe 1-C-1</Students>
@@ -488,7 +488,7 @@
     <Total_Duration>18.00</Total_Duration>
 </Activity>
 <Activity>
-    <Teacher>IJ. Varzinczak</Teacher>
+    <Teacher>F. Boussemart</Teacher>
     <Subject>BD-2</Subject>
     <Activity_Tag>TP</Activity_Tag>
     <Students>groupe 1-B-2</Students>
@@ -504,7 +504,7 @@
     <Total_Duration>18.00</Total_Duration>
 </Activity>
 <Activity>
-    <Teacher>M. Saralegi</Teacher>
+    <Teacher>M. Samy Modeliar</Teacher>
     <Subject>GL</Subject>
     <Activity_Tag>CM</Activity_Tag>
     <Students>INFO 1</Students>
@@ -520,7 +520,7 @@
     <Total_Duration>16.00</Total_Duration>
 </Activity>
 <Activity>
-    <Teacher>Y. Fregier</Teacher>
+    <Teacher>M. Saralegi</Teacher>
     <Subject>GL</Subject>
     <Activity_Tag>TD</Activity_Tag>
     <Students>groupe 1-B</Students>
@@ -536,7 +536,7 @@
     <Total_Duration>16.00</Total_Duration>
 </Activity>
 <Activity>
-    <Teacher>M. Samy Modeliar</Teacher>
+    <Teacher>M. Saralegi</Teacher>
     <Subject>GL</Subject>
     <Activity_Tag>TP</Activity_Tag>
     <Students>groupe 1-A-1</Students>
@@ -552,7 +552,7 @@
     <Total_Duration>18.00</Total_Duration>
 </Activity>
 <Activity>
-    <Teacher>Y. Fregier</Teacher>
+    <Teacher>M. Samy Modeliar</Teacher>
     <Subject>GL</Subject>
     <Activity_Tag>TP</Activity_Tag>
     <Students>groupe 1-C-1</Students>
@@ -568,7 +568,7 @@
     <Total_Duration>18.00</Total_Duration>
 </Activity>
 <Activity>
-    <Teacher>Y. Fregier</Teacher>
+    <Teacher>M. Samy Modeliar</Teacher>
     <Subject>GL</Subject>
     <Activity_Tag>TP</Activity_Tag>
     <Students>groupe 1-B-2</Students>
@@ -576,7 +576,7 @@
     <Total_Duration>18.00</Total_Duration>
 </Activity>
 <Activity>
-    <Teacher>M. Saralegi</Teacher>
+    <Teacher>Y. Fregier</Teacher>
     <Subject>GL</Subject>
     <Activity_Tag>TP</Activity_Tag>
     <Students>groupe 1-C-2</Students>
@@ -824,7 +824,7 @@
     <Total_Duration>10.00</Total_Duration>
 </Activity>
 <Activity>
-    <Teacher>L. Membre</Teacher>
+    <Teacher>S. Lambin</Teacher>
     <Subject>ECIA</Subject>
     <Activity_Tag>TD</Activity_Tag>
     <Students>groupe 1-A</Students>
@@ -832,7 +832,7 @@
     <Total_Duration>24.00</Total_Duration>
 </Activity>
 <Activity>
-    <Teacher>L. Membre</Teacher>
+    <Teacher>S. Lambin</Teacher>
     <Subject>ECIA</Subject>
     <Activity_Tag>TD</Activity_Tag>
     <Students>groupe 1-B</Students>
@@ -856,7 +856,7 @@
     <Total_Duration>6.00</Total_Duration>
 </Activity>
 <Activity>
-    <Teacher>S. Lambin</Teacher>
+    <Teacher>L. Membre</Teacher>
     <Subject>ECIA</Subject>
     <Activity_Tag>TP</Activity_Tag>
     <Students>groupe 1-B-1</Students>
@@ -864,7 +864,7 @@
     <Total_Duration>6.00</Total_Duration>
 </Activity>
 <Activity>
-    <Teacher>L. Membre</Teacher>
+    <Teacher>S. Lambin</Teacher>
     <Subject>ECIA</Subject>
     <Activity_Tag>TP</Activity_Tag>
     <Students>groupe 1-C-1</Students>
@@ -880,7 +880,7 @@
     <Total_Duration>6.00</Total_Duration>
 </Activity>
 <Activity>
-    <Teacher>L. Membre</Teacher>
+    <Teacher>S. Lambin</Teacher>
     <Subject>ECIA</Subject>
     <Activity_Tag>TP</Activity_Tag>
     <Students>groupe 1-B-2</Students>
@@ -888,7 +888,7 @@
     <Total_Duration>6.00</Total_Duration>
 </Activity>
 <Activity>
-    <Teacher>S. Lambin</Teacher>
+    <Teacher>L. Membre</Teacher>
     <Subject>ECIA</Subject>
     <Activity_Tag>TP</Activity_Tag>
     <Students>groupe 1-C-2</Students>
@@ -896,7 +896,7 @@
     <Total_Duration>6.00</Total_Duration>
 </Activity>
 <Activity>
-    <Teacher>E. Ballinger</Teacher>
+    <Teacher>C. Guerville</Teacher>
     <Subject>Anglais-2</Subject>
     <Activity_Tag>TD</Activity_Tag>
     <Students>groupe 1-A</Students>
@@ -912,7 +912,7 @@
     <Total_Duration>21.00</Total_Duration>
 </Activity>
 <Activity>
-    <Teacher>C. Guerville</Teacher>
+    <Teacher>E. Ballinger</Teacher>
     <Subject>Anglais-2</Subject>
     <Activity_Tag>TD</Activity_Tag>
     <Students>groupe 1-C</Students>
@@ -936,7 +936,7 @@
     <Total_Duration>24.00</Total_Duration>
 </Activity>
 <Activity>
-    <Teacher>E. Ballinger</Teacher>
+    <Teacher>C. Guerville</Teacher>
     <Subject>Anglais-2</Subject>
     <Activity_Tag>TP</Activity_Tag>
     <Students>groupe 1-C-1</Students>
@@ -944,7 +944,7 @@
     <Total_Duration>24.00</Total_Duration>
 </Activity>
 <Activity>
-    <Teacher>C. Guerville</Teacher>
+    <Teacher>E. Ballinger</Teacher>
     <Subject>Anglais-2</Subject>
     <Activity_Tag>TP</Activity_Tag>
     <Students>groupe 1-A-2</Students>
@@ -960,7 +960,7 @@
     <Total_Duration>24.00</Total_Duration>
 </Activity>
 <Activity>
-    <Teacher>E. Ballinger</Teacher>
+    <Teacher>C. Guerville</Teacher>
     <Subject>Anglais-2</Subject>
     <Activity_Tag>TP</Activity_Tag>
     <Students>groupe 1-C-2</Students>
@@ -984,7 +984,7 @@
     <Total_Duration>10.50</Total_Duration>
 </Activity>
 <Activity>
-    <Teacher>M. Masquelin</Teacher>
+    <Teacher>G. De Smet</Teacher>
     <Subject>PPP-2</Subject>
     <Activity_Tag>TD</Activity_Tag>
     <Students>groupe 1-C</Students>
@@ -992,7 +992,7 @@
     <Total_Duration>10.50</Total_Duration>
 </Activity>
 <Activity>
-    <Teacher>M. Masquelin</Teacher>
+    <Teacher>G. De Smet</Teacher>
     <Subject>PPP-2</Subject>
     <Activity_Tag>TP</Activity_Tag>
     <Students>groupe 1-A-1</Students>
@@ -1016,7 +1016,7 @@
     <Total_Duration>10.50</Total_Duration>
 </Activity>
 <Activity>
-    <Teacher>M. Masquelin</Teacher>
+    <Teacher>G. De Smet</Teacher>
     <Subject>PPP-2</Subject>
     <Activity_Tag>TP</Activity_Tag>
     <Students>groupe 1-A-2</Students>

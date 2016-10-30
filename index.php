@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>index</title>
-</head>
-<body>
-
-
 <?php
 /**
  * Created by PhpStorm.
@@ -19,14 +10,6 @@ function __autoload($classname) {
     include_once($filename);
 }
 
-
-
-
-
 $exec = new Traitement("S2");
 
 $exec->generationFichiersXML();
-
-?>
-</body>
-</html>
